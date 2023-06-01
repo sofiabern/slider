@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
+.our-products-title {
+  margin-bottom: 32px;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+
+  color: #111111;
+}
+
+.our-products-title-accent {
+  color: #fd9222;
+}
+
+.our-products-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.our-products-item {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  background: #ffffff;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 15px;
+}
+
+.our-products-text-wrapper {
+  padding-top: 8px;
+}
+
+.our-products-subtitle {
+  margin-bottom: 2px;
+
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: #111111;
+}
+.our-products-descr {
+  margin-bottom: 18px;
+
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  text-align: center;
+
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.our-products-price {
+  display: block;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 19px;
+  min-width: 94px;
+
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+  text-align: center;
+
+  color: #111111;
+  background: #fafafa;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 100px;
+}
+
+/* Swiper */
+.swiper-pagination {
+  width: 13px;
+  height: 13px;
+}
+
+/*  як задати ширину і висоту карточці
+як зробити на мобайл свайпер
+де булліти
+як розташувати прайс
+прайс-це кнопка? */
