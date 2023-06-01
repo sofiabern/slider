@@ -21,8 +21,8 @@ img {
 }
 
 .swiper {
-  width: 600px;
-  height: 300px;
+  width: 335px;
+  height: 397px;
 }
 
 .our-products-title {
@@ -51,14 +51,22 @@ img {
 .our-products-item {
   padding-top: 32px;
   padding-bottom: 32px;
+  width: 335px;
 
   background: #ffffff;
   border: 1px solid rgba(17, 17, 17, 0.1);
   border-radius: 15px;
 }
 
+.our-products-img {
+  margin: 0 auto;
+}
+
 .our-products-text-wrapper {
   padding-top: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .our-products-subtitle {
@@ -70,7 +78,7 @@ img {
   line-height: 1.33;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  text-align: center;
+  /* text-align: center; */
 
   color: #111111;
 }
@@ -82,13 +90,12 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: -0.02em;
-  text-align: center;
+  /* text-align: center; */
 
   color: rgba(17, 17, 17, 0.7);
 }
 
 .our-products-price {
-  display: block;
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 20px;
@@ -99,7 +106,7 @@ img {
   font-weight: 600;
   font-size: 14px;
   line-height: 1.21;
-  text-align: center;
+  /* text-align: center; */
 
   color: #111111;
   background: #fafafa;
@@ -109,12 +116,25 @@ img {
 
 /* Swiper */
 .swiper-pagination {
+  display: flex;
+  justify-content: center;
+  gap: 13px;
+}
+
+.swiper-pagination-bullet {
   width: 13px;
   height: 13px;
+  background: rgba(17, 17, 17, 0.1);
+}
+
+.swiper-pagination-bullet-active {
+  width: 28px;
+  background: #fd9222;
+  border-radius: 30px;
 }
 
 /*  як задати ширину і висоту карточці
 як зробити на мобайл свайпер
 де булліти
 як розташувати прайс
-прайс-це кнопка? */
+прайс-це кнопка? */ ;
